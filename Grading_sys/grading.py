@@ -1,0 +1,20 @@
+print('enter eid')
+marks=int(input())
+
+if    marks>0 and marks<33:
+        print('F')
+elif  marks>=33 and marks<=39:
+        print('D')
+elif  marks>=40 and marks<=49:
+        print('C')
+elif  marks>=50 and marks<=59:
+        print('B')
+elif  marks>=60 and marks<=69 :
+        print('A-')
+elif  marks>=70 and marks<=79:
+        print('A')
+elif  marks>=80 and marks<=100:
+        print('A+')
+else: print('invalid Marks')
+
+
