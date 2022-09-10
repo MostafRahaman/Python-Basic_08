@@ -9,7 +9,7 @@ import random
 secretNumber = random.randint(1,6)
 def game() :
     if secretNumber == 1:
-        print('you are lucky')
+        print m
     elif secretNumber == 2:
         print('Go to Dhaka')
     elif secretNumber== 3:
